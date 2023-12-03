@@ -7,3 +7,4 @@ function capitalize(text) {
   return words.join(" ");
 }
 console.log(capitalize("hello how are you doing today?"));
+// Another text effect
