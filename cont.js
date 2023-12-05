@@ -18,3 +18,8 @@ function myNew(cons) {
 
 const p1 = myNew(Person, "Al Amin", 37);
 console.log(p1.details());
+
+const t1 = myNew(Teacher, "Atiar Rahman", "Science", 3);
+console.log(t1.details());
+
+const c1 = myNew(car, "Mazda", 2023, 4, 6, "petrol");
